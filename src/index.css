@@ -1,3 +1,4 @@
+
 body{
   margin: 0;
   padding: 0;
@@ -11,6 +12,8 @@ body{
   text-decoration: none;
   color: black;
   margin: 10px;
+  justify-content: center;
+ 
   
 }
 
@@ -20,4 +23,23 @@ body{
 .header a:hover{
   color: red;
 }
+
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.posts a{
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+
+
+
 
